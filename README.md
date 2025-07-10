@@ -38,13 +38,13 @@
 Install via PyPI:
 
 ```bash
-pip install ollama-toolkit
+pip install ollama-panongbene
 ```
 
 Or install from source:
 
 ```bash
-git clone https://github.com/<your-username>/ollama-toolkit.git
+git clone https://github.com/openDataSenegal/ollama_toolkit.git
 cd ollama-toolkit
 pip install .
 ```

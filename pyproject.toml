@@ -1,5 +1,5 @@
 [project]
-name = "ollama-toolkit"
+name = "ollama-panongbene"
 version = "0.1.0"
 description = "CLI tools to export and import Ollama models (.tar.gz)"
 authors = [
