@@ -1,0 +1,20 @@
+[project]
+name = "ollama-toolkit"
+version = "0.1.0"
+description = "CLI tools to export and import Ollama models (.tar.gz)"
+authors = [
+    { name = "Panongbene Sawadogo", email = "amet1900@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "tqdm"
+]
+
+[project.scripts]
+ollama-export = "ollama_toolkit.cli:export_cli"
+ollama-import = "ollama_toolkit.cli:import_cli"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
